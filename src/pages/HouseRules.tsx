@@ -18,9 +18,9 @@ export default function HouseRules() {
         'Szeretettel köszöntjük a Fifteen apartman-ban. Mindent megteszünk annak érdekében, hogy kellemessé tegyük pihenését',
         'Házirendünk célja, hogy a szükséges információk birtokában nyugodt, kellemes pihenést biztosítsunk és elkerüljük az esetleges félreértéseket. A házirend az apartmanban tartózkodó valamennyi vendégre vonatkozik.',
         'Azzal, hogy igénybe veszik apartmanunk szálláshelyének szolgáltatásait kijelentik, hogy magukra nézve azt elfogadják és érvényesnek tekintik.',
-        'A hatályos jogszabályok szerint Magyarországi szálláshelyen kötelező minden vendég (beleértve a 14 év alattiak is) adatait az NTAK (Nemzeti Turisztikai Adatvédelmi Központ) rendszerbe felvinni.',
+        'A hatályos jogszabályok szerint Magyarországi szálláson kötelező minden vendég (beleértve a 14 év alattiak is) adatait az NTAK (Nemzeti Turisztikai Adatvédelmi Központ) rendszerbe felvinni.',
         'Minden érkező Vendég az apartman elfoglalását megelőzően köteles a személyazonosságát a törvényes előírásoknak megfelelően igazolni (okmányait a Vendégem applikációba beolvassuk (jogszabályi előírás).',
-        'A szálláshelyet a Vendégek a foglalásban és a bejelentkezésben szereplő létszámban vehetik igénybe. A szállásadó előzetes bejelentés nélkül jogosult ellenőrizni a vendégek létszámát, azoknak zaklatása és személyiségi jogaik megsértése nélkül.',
+        'A szálláhelyet a Vendégek a foglalásban és a bejelentkezésben szereplő létszámban vehetik igénybe. A szállásadó előzetes bejelentés nélkül jogosult ellenőrizni a vendégek létszámát, azoknak zaklatása és személyiségi jogaik megsértése nélkül.',
         'Vendégeink látogatót napközben 8:00-21:00 óra között a szállásadóval előzetesen egyeztetve fogadhatnak.'
       ]
     },
@@ -43,8 +43,8 @@ export default function HouseRules() {
       title: 'Fizetés/Foglalás',
       content: [
         'Foglalást, lemondást, módosítást csak és kizárólag írásban fogadunk el.',
-        'A szállásfoglalás 50 % foglaló befizetésével történik.',
-        'A foglalás meghatározott időre (a visszaigazolásban szereplő) szól. Ha a Vendég nem érkezik meg időben a foglalását másnap 10 óráig tartjuk fennt. Ha nem kaptunk értesítést a Vendégtől a később érkezésről és nem érjük el, az apartmant tovább értékesítjük és a foglaló nem jár vissza!',
+        'A szállásfoglalás 50 % foglalló befizetésével történik.',
+        'A foglalás meghatározott időre (a visszaigazolásban szereplő) szól. Ha a Vendég nem érkezik meg időben a foglalását másnap 10 óráig tartjuk fennt. Ha nem kaptunk értesítést a Vendégtől a később érkezésről és nem érjük el, az apartmant tovább értékesítjük és a foglalló nem jár vissza!',
         'A foglalási díjat 24 órán belül kérjük elutalni, ellenkező esetben a foglalás érvényét veszti!',
         'A lefoglalt időpontnál korábbi elutazás esetén szállásdíjat nem térítünk vissza.',
         'A számlát a foglalásban megadott névre állítjuk ki.',
@@ -52,7 +52,7 @@ export default function HouseRules() {
         'Az árak apartman/éj értendők.',
         'A szállásdíj és az idegenforgalmi adó fizetése a megérkezés után történik.',
         'Ha valami miatt az Ön által előre lefoglalt időszak vége előtt távozik a szállásról, nem áll módunkban a szállásdíjat csökkenteni, visszafizetni.',
-        'Felhívjuk kedves figyelmét, hogy a szálláshelyen csak azok a személyek tartózkodhatnak, akik a bejelentő lapon szerepelnek. Amennyiben más személy tartózkodik a vendégház területén, abban az esetben a szerződés azonnal felmondható és a vendégeknek el kell hagyniuk a ház területét.'
+        'Felhívjuk kedves figyelmét, hogy a szálláshelyen csak azok a személyek tartózkodhatnak, akik a bejelentő lapon szerepelnek. Amennyiben más személy tartózkodik a vendéghá terület, abban az esetben a szerződés azonnal felmondható és a vendégeknek el kell hagyniuk a ház területét.'
       ]
     },
     pets: {
@@ -60,7 +60,7 @@ export default function HouseRules() {
       content: [
         'Kisállat hozható a tulajdonossal való előzetes egyeztetést követően!',
         'A kisállatért felárat nem kell fizetni.',
-        'Minden esetben kérjük az állat gazdáját, hogy az állattal kapcsolatos igazoló dokumentumot hozza magával, a biztonságát szavatoló egyéb kiegészítő felszereléssel együtt.'
+        'Minden esetben kérjük az állat gazdáját, hogy az állattal kapcsolatos igazoló dokumentumot hozza magával, a biztonságát szavatol egyéb kiegészítő felszereléssel együtt.'
       ]
     },
     usage: {
@@ -69,7 +69,7 @@ export default function HouseRules() {
         'Kérjük a szálláshely épületeit, eszközeit rendeltetésszerűen használni, a tűz- és baleset-védelmi szabályokat betartani!',
         'Ha a vendég az apartmant nem rendeltetésszerűen használja azonnal távozásra szólítjuk fel és a foglalás díja nem jár vissza! pl.: 22:00 után hangoskodik, a szomszédok, a lakókörnyezet nyugalmát, pihenését zavarja vagy durván, sértőn viselkedik az apartman tulajdonosaival, szomszédokkal szemben.',
         'A rendellenes használat, illetve a gondatlanság által előidézett károkért a Vendég teljes kártérítéssel tartozik.',
-        'Gondatlanságnak minősül a szobákban az ablakok nyitva hagyása, ezért kérjük, az apartman elhagyásakor ezeket feltétlenül csukják, és a bejárati ajtót zárják be.',
+        'Gondatlans nak minősül a szobákban az ablakok nyitva hagyása, ezért kérjük, az apartman elhagyásakor ezeket feltétlenül csukják, és a bejárati ajtót zárják be.',
         'Az átadott kulcsok elvesztése esetén a Vendég köteles haladéktalanul jelezni, annak árát és a zárcserét a tulajdonosnak megtéríteni.',
         'A házirend megsértése kitiltást, illetőleg a tárgyak eltulajdonítása, rongálása, egyéb intézkedést von maga után!',
         'Az apartmanban életvitelszerű használat, normális lakhatás megengedett. Bulik, legény vagy lánybúcsú tartása nem megengedett.',
