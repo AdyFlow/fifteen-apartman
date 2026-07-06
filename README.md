@@ -1,2 +1,3 @@
-# fifteen-apartman
-Fifteen Apartman - Balatonfoldvar vacation rental website
+# fifteenapartman
+
+[![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-xtyjkewq)
