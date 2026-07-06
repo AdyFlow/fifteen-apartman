@@ -59,7 +59,7 @@ export default function Experiences() {
       icon: Wine,
       title: 'Gasztronómia & vendéglátás',
       distance: 'Éttermek & gasztro-tippek',
-      description: 'Pite Porta Kávézó és sütiző: Hangulatos kávézó kiváló kávékkal és friss süteményekkel. Tökéletes választás egy délutáni pihenéshez vagy könnyed beszélgetéshez. Helka Pub & Terasz – Helka Sörfőzde: Barátságos kerthelyiség, helyben főzött sörkülönlegességekkel és laza hangulattal. Ideális hely egy kellemes esti beszélgetéshez vagy baráti találkozóhoz.',
+      description: 'Pite Porta Kávézó és sütiző: Hangulatos kávézó kiváló kávékkal és friss süteményekkel. Tökéletes választás egy délutáni pihenéshez vagy könnyed beszélgetéshez. Helka Pub & Terász – Helka Sörfőzde: Barátságos kerthelyiség, helyben főzött sörkülönlegességekkel és laza hangulattal. Ideális hely egy kellemes esti beszélgetéshez vagy baráti találkozóhoz.',
       image: '/files_8595244-2026-01-28t07-29-52-127z-files_8595244-2026-01-27t15-31-21-396z-wittman.jpg'
     },
     {
