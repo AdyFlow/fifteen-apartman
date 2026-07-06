@@ -196,7 +196,7 @@ export default function ApartmentSpaces() {
                     animationFillMode: 'forwards'
                   }}
                 >
-                  {word}{index < 5 ? '\u00A0' : ''}
+                  {word}{index < 5 ? ' ' : ''}
                 </span>
               ))}
             </h1>
@@ -210,7 +210,7 @@ export default function ApartmentSpaces() {
                     animationFillMode: 'forwards'
                   }}
                 >
-                  {word}{index < 5 ? '\u00A0' : ''}
+                  {word}{index < 5 ? ' ' : ''}
                 </span>
               ))}
             </p>
