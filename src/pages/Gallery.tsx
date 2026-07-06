@@ -97,7 +97,7 @@ export default function Gallery() {
                     animationFillMode: 'forwards'
                   }}
                 >
-                  {word}{index < 5 ? ' ' : ''}
+                  {word}{index < 5 ? '\u00A0' : ''}
                 </span>
               ))}
             </p>
