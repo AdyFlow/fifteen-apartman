@@ -13,35 +13,35 @@ interface Review {
 
 const reviews: Review[] = [
   {
-    name: 'Balázs',
+    name: 'Bal\u00e1zs',
     source: 'Google',
-    sourceLabel: { hu: 'Google-vélemény', en: 'Google review' },
+    sourceLabel: { hu: 'Google-v\u00e9lem\u00e9ny', en: 'Google review' },
     rating: 5,
     meta: { hu: '5 napja', en: '5 days ago' },
     text: {
-      hu: 'Szép, tiszta, otthonos szállás. A tulajdonosok nagyon kedvesek, barátságosak és segítőkészek. Mindenkinek ajánlom a szállást! Két gyerekkel érkeztünk négyen, kényelmesen elfértünk.',
+      hu: 'Sz\u00e9p, tiszta, otthonos sz\u00e1ll\u00e1s. A tulajdonosok nagyon kedvesek, bar\u00e1ts\u00e1gosak \u00e9s seg\u00edt\u0151k\u00e9szek. Mindenkinek aj\u00e1nlom a sz\u00e1ll\u00e1st! K\u00e9t gyerekkel \u00e9rkezt\u00fcnk n\u00e9gyen, k\u00e9nyelmesen elf\u00e9rt\u00fcnk.',
       en: 'Beautiful, clean, cozy accommodation. The owners are very kind, friendly and helpful. I recommend it to everyone! We arrived as a family of four with two children and had plenty of space.',
     },
   },
   {
-    name: 'Viktória',
+    name: 'Vikt\u00f3ria',
     source: 'Booking.com',
-    sourceLabel: { hu: 'Booking.com vendégvélemény', en: 'Booking.com guest review' },
+    sourceLabel: { hu: 'Booking.com vend\u00e9gv\u00e9lem\u00e9ny', en: 'Booking.com guest review' },
     rating: 5,
-    meta: { hu: 'Magyarország', en: 'Hungary' },
+    meta: { hu: 'Magyarorsz\u00e1g', en: 'Hungary' },
     text: {
-      hu: 'Gyönyörű, tiszta, kulturált szállás, minden igényt kielégített, egy karnyújtásnyira van a Balaton parttól. Nem beszélve a szállásadók kedvességükről, és segítő készségükről.',
+      hu: 'Gy\u00f6ny\u00f6r\u0171, tiszta, kultur\u00e1lt sz\u00e1ll\u00e1s, minden ig\u00e9nyt kiel\u00e9g\u00edtett, egy karny\u00fajt\u00e1snyira van a Balaton partt\u00f3l. Nem besz\u00e9lve a sz\u00e1ll\u00e1sad\u00f3k kedvess\u00e9g\u00fckr\u0151l, \u00e9s seg\u00edt\u0151 k\u00e9szs\u00e9g\u00fckr\u0151l.',
       en: 'Beautiful, clean, well-maintained accommodation that met all our needs, just a stone\'s throw from the shore of Lake Balaton. Not to mention the kindness and helpfulness of the hosts.',
     },
   },
   {
     name: 'Laura',
     source: 'Booking.com',
-    sourceLabel: { hu: 'Booking.com vendégvélemény', en: 'Booking.com guest review' },
+    sourceLabel: { hu: 'Booking.com vend\u00e9gv\u00e9lem\u00e9ny', en: 'Booking.com guest review' },
     rating: 5,
     meta: { hu: 'Ausztria', en: 'Austria' },
     text: {
-      hu: 'Nagyszerű, új és tiszta apartman egy kedves környéken. Társasjátékok is rendelkezésre állnak, a fürdőszoba pedig teljesen felszerelt (sampon, testápoló, tusfürdő). Kiváló elhelyezkedésű, tágas és modern szállás.',
+      hu: 'Nagyszer\u0171, \u00faj \u00e9s tiszta apartman egy kedves k\u00f6rny\u00e9ken. T\u00e1rsasj\u00e1t\u00e9kok is rendelkez\u00e9sre \u00e1llnak, a f\u00fcrd\u0151szoba pedig teljesen felszerelt (sampon, test\u00e1pol\u00f3, tusf\u00fcrd\u0151). Kiv\u00e1l\u00f3 elhelyezked\u00e9s\u0171, t\u00e1gas \u00e9s modern sz\u00e1ll\u00e1s.',
       en: 'Great, new clean apartment in a lovely neighbourhood. Board games, bathroom fully equipped (shampoo, lotion, shower gel). Great location, spacious, new.',
     },
   },
@@ -79,9 +79,9 @@ export default function Testimonials() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [next, prev]);
 
-  const sectionTitle = language === 'hu' ? 'Vendégeink véleménye' : 'Guest reviews';
-  const sectionHeadingBefore = language === 'hu' ? 'Akik már ' : 'Those who have already ';
-  const sectionHeadingBold = language === 'hu' ? 'nálunk pihentek' : 'stayed with us';
+  const sectionTitle = language === 'hu' ? 'Vend\u00e9geink v\u00e9lem\u00e9nye' : 'Guest reviews';
+  const sectionHeadingBefore = language === 'hu' ? 'Akik m\u00e1r ' : 'Those who have already ';
+  const sectionHeadingBold = language === 'hu' ? 'n\u00e1lunk pihentek' : 'stayed with us';
 
   return (
     <section className="relative py-20 md:py-32 overflow-hidden" style={{ backgroundColor: '#f9fafb' }}>
@@ -123,7 +123,7 @@ export default function Testimonials() {
               onClick={prev}
               className="p-2 rounded-full border transition-colors hover:bg-gray-100"
               style={{ borderColor: '#D1D5DB' }}
-              aria-label={language === 'hu' ? 'Előző vélemény' : 'Previous review'}
+              aria-label={language === 'hu' ? 'El\u0151z\u0151 v\u00e9lem\u00e9ny' : 'Previous review'}
             >
               <ChevronLeft size={20} style={{ color: '#374151' }} />
             </button>
@@ -138,7 +138,7 @@ export default function Testimonials() {
                     backgroundColor: idx === current ? '#111828' : '#D1D5DB',
                     transform: idx === current ? 'scale(1.2)' : 'scale(1)',
                   }}
-                  aria-label={`${language === 'hu' ? 'Vélemény' : 'Review'} ${idx + 1}`}
+                  aria-label={`${language === 'hu' ? 'V\u00e9lem\u00e9ny' : 'Review'} ${idx + 1}`}
                 />
               ))}
             </div>
@@ -147,7 +147,7 @@ export default function Testimonials() {
               onClick={next}
               className="p-2 rounded-full border transition-colors hover:bg-gray-100"
               style={{ borderColor: '#D1D5DB' }}
-              aria-label={language === 'hu' ? 'Következő vélemény' : 'Next review'}
+              aria-label={language === 'hu' ? 'K\u00f6vetkez\u0151 v\u00e9lem\u00e9ny' : 'Next review'}
             >
               <ChevronRight size={20} style={{ color: '#374151' }} />
             </button>
@@ -169,7 +169,7 @@ function ReviewCard({ review, language }: { review: Review; language: 'hu' | 'en
         <div>
           <h3 className="text-lg font-semibold" style={{ color: '#111828' }}>{review.name}</h3>
           <div className="flex items-center gap-2 mt-1">
-            <div className="flex" aria-label={`${review.rating} / 5 ${language === 'hu' ? 'értékelés' : 'rating'}`}>
+            <div className="flex" aria-label={`${review.rating} / 5 ${language === 'hu' ? '\u00e9rt\u00e9kel\u00e9s' : 'rating'}`}>
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star
                   key={i}
