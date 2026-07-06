@@ -125,7 +125,7 @@ export default function Partners() {
                     animationFillMode: 'forwards'
                   }}
                 >
-                  {word}{index < 30 ? ' ' : ''}
+                  {word}{index < 30 ? '\u00A0' : ''}
                 </span>
               ))}
             </p>
