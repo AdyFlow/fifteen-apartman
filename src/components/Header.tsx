@@ -9,13 +9,13 @@ export default function Header() {
   const { language, toggleLanguage } = useLanguage();
 
   const menuItems = [
-    { path: '/', label: 'F\u0151oldal' },
-    { path: '/apartman-terei', label: 'Felszerelts\u00e9g' },
-    { path: '/elmenyek', label: '\u00c9lm\u00e9nyek a k\u00f6zelben' },
-    { path: '/galeria', label: 'Gal\u00e9ria' },
-    { path: '/hazirend', label: 'H\u00e1zirend' },
+    { path: '/', label: 'Főoldal' },
+    { path: '/apartman-terei', label: 'Felszereltség' },
+    { path: '/elmenyek', label: 'Élmények a közelben' },
+    { path: '/galeria', label: 'Galéria' },
+    { path: '/hazirend', label: 'Házirend' },
     { path: '/partnereink', label: 'Partnereink' },
-    { path: '/ajanlatkeres', label: 'Foglal\u00e1s' }
+    { path: '/ajanlatkeres', label: 'Foglalás' }
   ];
 
   const isActive = (path: string) => location.pathname === path;

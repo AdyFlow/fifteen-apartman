@@ -9,12 +9,12 @@ export default function Footer() {
           <div>
             <img src="/files_8595244-2026-01-29t18-11-10-081z-files_8595244-2026-01-29t15-36-45-838z-chatgpt_image_2026._jan._29._16_28_04.webp" alt="Fifteen Apartman" className="h-32 w-auto mb-4" />
             <p className="text-sm leading-relaxed">
-              K\u00e9nyelmes, modern apartman Balatonf\u00f6ldv\u00e1ron, ide\u00e1lis v\u00e1laszt\u00e1s pihen\u00e9shez \u00e9s felt\u00f6lt\u0151d\u00e9shez.
+              Kényelmes, modern apartman Balatonföldváron, ideális választás pihenéshez és feltöltődéshez.
             </p>
           </div>
 
           <div>
-            <h3 className="font-medium mb-4" style={{ color: '#FFFFFF' }}>El\u00e9rhet\u0151s\u00e9g</h3>
+            <h3 className="font-medium mb-4" style={{ color: '#FFFFFF' }}>Elérhetőség</h3>
             <div className="space-y-3">
               <a href="tel:+36204530000" className="flex items-start space-x-2 text-sm transition-colors" style={{ color: '#C6C6C6' }}
                 onMouseEnter={(e) => e.currentTarget.style.color = '#B8B8B8'}
@@ -25,7 +25,7 @@ export default function Footer() {
               </a>
               <div className="flex items-start space-x-2 text-sm">
                 <MapPin size={18} className="mt-0.5 flex-shrink-0" />
-                <span>8623 Balatonf\u00f6ldv\u00e1r,<br />Hunyadi J\u00e1nos utca 15.</span>
+                <span>8623 Balatonföldvár,<br />Hunyadi János utca 15.</span>
               </div>
             </div>
           </div>
@@ -37,13 +37,13 @@ export default function Footer() {
                 onMouseEnter={(e) => e.currentTarget.style.color = '#B8B8B8'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#C6C6C6'}
               >
-                \u00c1ltal\u00e1nos Szerz\u0151d\u00e9si Felt\u00e9telek
+                Általános Szerződési Feltételek
               </Link>
               <Link to="/adatvedelmi-nyilatkozat" className="block text-sm transition-colors" style={{ color: '#C6C6C6' }}
                 onMouseEnter={(e) => e.currentTarget.style.color = '#B8B8B8'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#C6C6C6'}
               >
-                Adatv\u00e9delmi nyilatkozat
+                Adatvédelmi nyilatkozat
               </Link>
               <Link to="/jogi-nyilatkozat" className="block text-sm transition-colors" style={{ color: '#C6C6C6' }}
                 onMouseEnter={(e) => e.currentTarget.style.color = '#B8B8B8'}
@@ -61,11 +61,11 @@ export default function Footer() {
                 onMouseEnter={(e) => e.currentTarget.style.color = '#B8B8B8'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#C6C6C6'}
               >
-                H\u00e1zirend
+                Házirend
               </Link>
             </nav>
 
-            <h3 className="font-medium mb-4" style={{ color: '#FFFFFF' }}>K\u00f6vess minket</h3>
+            <h3 className="font-medium mb-4" style={{ color: '#FFFFFF' }}>Kövess minket</h3>
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/share/179pmoksP8/?mibextid=wwXIfr"
@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="border-t-2 mt-12 pt-8 text-sm text-center" style={{ borderTopColor: '#B8B8B8' }}>
           <p>&copy; {new Date().getFullYear()} Fifteen Apartman. Minden jog fenntartva.</p>
           <p className="mt-2" style={{ color: '#E5E7EB' }}>
-            Tervez\u00e9s \u00e9s fejleszt\u00e9s:{' '}
+            Tervezés és fejlesztés:{' '}
             <a
               href="https://www.adyflow.com/"
               target="_blank"
